@@ -37,7 +37,7 @@ body{
 }
 
 /* ========== 選單區 ========== */
-#mainNav {
+#mainNav{
 	background-image:url(images/mainNav_bg.jpg);
 	height:40px;
 }
@@ -58,3 +58,46 @@ body{
 	color:#333;
 	padding-top:15px;
 }
+
+/* ========== 內容區 ========== */
+#content{
+	background-image:url(images/content_bg.jpg);
+	background-repeat:no-repeat;
+	padding:50px 30px 0 90px;
+}
+#content h2{
+	background-image:url(images/content_news_title.gif);
+	width:800px;
+	height:110px;
+	text-indent:-9999px;
+}
+.content_info{
+	background-image:url(images/content_news_board.gif);
+	width:800px;
+	height:110px;
+	margin:10px 0;
+}
+.content_info p{
+	font-size:12px;
+	line-height:16px;
+	padding:10px 10px 0 140px;
+}
+#content h3{
+	background-image:url(images/content_baby5steps.gif);
+	width:800px;
+	height:50px;
+	text-indent:-9999px;
+}
+#content ul{
+	list-style-image:url(images/content_arrow.gif);
+	width:770px;
+	height:100px;
+	font-size:12px;
+	line-height:20px;
+	padding-left:30px;
+	background-image:url(images/content_baby123.gif);
+	background-repeat:no-repeat;
+	background-position:right center;
+	margin-top:10px;
+}
+#content li{}
