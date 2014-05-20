@@ -1,3 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-image:url(images/body_bg.gif);
+}
+
+#wrapper{
+	width:900px;
+	margin:0 auto;
+	background-image:url(images/wrapper_bg.jpg);
+	border-left:#666 2px solid;
+	border-right:#666 2px solid;
+}
