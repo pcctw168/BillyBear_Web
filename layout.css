@@ -35,3 +35,26 @@ body{
 	color:#036;
 	font-weight:bold;
 }
+
+/* ========== 選單區 ========== */
+#mainNav {
+	background-image:url(images/mainNav_bg.jpg);
+	height:40px;
+}
+#mainNav ul{
+	padding-left:120px;
+}
+#mainNav li{
+	float:left;
+	list-style-type:none;
+}
+#mainNav li a{
+	display:block;
+	background-image:url(images/mainNav_icon.gif);
+	width:150px;
+	height:25px;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	padding-top:15px;
+}
