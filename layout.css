@@ -101,3 +101,15 @@ body{
 	margin-top:10px;
 }
 #content li{}
+
+/* ========== 版權宣告區 ========== */
+#footer{
+	background-image:url(images/footer_bg.jpg);
+	height:100px;
+}
+#footer h4{
+	font-size:12px;
+	color:#030;
+	text-align:center;
+	line-height:100px;
+}
