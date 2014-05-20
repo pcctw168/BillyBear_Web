@@ -11,9 +11,27 @@ body{
 }
 
 #wrapper{
-	width:900px;
+	width:980px;
 	margin:0 auto;
 	background-image:url(images/wrapper_bg.jpg);
 	border-left:#666 2px solid;
 	border-right:#666 2px solid;
+}
+
+/* ========== 標題區 ========== */
+#header{
+	background-image:url(images/header_bg.jpg);
+	height:410px;
+}
+#header p{}
+#header p a{
+	display:block;
+	width:80px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	text-decoration:none;
+	margin-left:870px;
+	color:#036;
+	font-weight:bold;
 }
